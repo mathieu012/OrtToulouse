@@ -1,0 +1,128 @@
+header{
+    border-bottom: 5px solid;
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 50px;
+}
+
+body{
+    border: 5px solid;
+}
+
+section[class ="slide" ] img{
+    height: 500px;
+    top: 50%;
+    left: 50%;
+}
+
+section div[class = "carousel slide"]{
+    border-bottom: 5px solid;
+}
+
+
+section[class ="services"]{
+    display: table;
+    border-bottom: 5px solid;
+}
+section[class ="services"] div{
+    display: inline-block;
+    width: 33.3%;
+}
+
+section[class ="services"] div div[class ="d-flex justify-content-center"]{
+    
+    border: 0px solid;
+    width: auto;
+}
+
+section[class ="services"] div p {
+    text-align: center;
+}
+section[class = "team"] div{
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.433);
+    justify-content: center;
+    
+    
+}
+
+section[class = "team"] img {
+    margin-left: 75px;
+    box-shadow: 10px 9px 15px black;
+    height: 300px;
+    border: 5px double;
+    
+    
+}
+
+section[class = "team"] div img[class = "icone2"] {
+    margin-left: 210px;
+}
+
+section[class = "team"] div img[class = "icone3"] {
+    margin-left: 240px;
+    background-color: white;
+}
+
+section[class ="d-flex justify-content-center"]{
+background-color: white;
+display: table;
+}
+section[class ="d-flex justify-content-center"] div{
+    background-color: white;
+    width: 502px;
+    display: inline-block;
+    border: 5px solid;
+    text-align: center;
+}
+
+section[class ="portefollio"]{
+    display: table;
+    border-bottom: 5px solid;
+}
+
+.P_voyager1{
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+    width: 58.95%;
+    border-right: 5px solid;
+}
+
+img[class="voyager1"]{
+    float: right;
+    position: static;
+    height: 300px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:30.25%;
+    width: 50%;
+    position:relative;
+    display: inline-block;
+    height:0;
+    border-right: 5px solid;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+section[class ="contact"] div p{
+    display: inline-block;
+    width: 50%;
+    float: right;    
+}
+
+section[class="contact"] {
+    background-color: white;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-top: 5px solid;
+}
